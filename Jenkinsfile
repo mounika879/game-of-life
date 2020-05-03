@@ -8,6 +8,7 @@ node {
    stage ("archive the artifact") {
        archiveArtifacts 'gameoflife-web/target/*.war'
    }
-   
+    stage ("show") {
+       sh 'echo'
 
 }
